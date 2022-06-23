@@ -1,0 +1,376 @@
+[15:38:39,568] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[15:38:39,608] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[15:38:39,617] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[15:38:39,617] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[15:38:39,617] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[15:38:39,617] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[15:38:39,662] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[15:38:39,664] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[15:38:39,665] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[15:38:39,667] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[15:38:39,669] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[15:38:39,670] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[15:38:39,672] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[15:38:39,673] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[15:38:39,675] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[15:38:39,678] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[15:38:39,680] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[15:38:39,682] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[15:38:39,683] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[15:38:40,343] [INFO] ServerMain.main --> 游戏服务器启动成功
+[16:39:19,739] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[16:39:19,778] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[16:39:19,779] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[16:39:19,780] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[16:39:19,781] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[16:39:19,782] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[16:39:19,804] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[16:39:19,806] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[16:39:19,807] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[16:39:19,809] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[16:39:19,810] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[16:39:19,811] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[16:39:19,812] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[16:39:19,814] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[16:39:19,815] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[16:39:19,817] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[16:39:19,818] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[16:39:19,820] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[16:39:19,821] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[16:39:20,480] [INFO] ServerMain.main --> 游戏服务器启动成功
+[16:39:45,226] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[16:39:45,233] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:39:49,636] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:39:49,637] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:39:51,351] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -483.29636
+moveFromPosY: 88.74802
+
+[16:40:20,808] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[16:40:20,809] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:40:25,631] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:40:25,631] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:40:28,314] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveToPosX: -454.89697
+moveToPosY: 94.833595
+
+[16:40:34,531] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -456.524
+moveFromPosY: 95.99949
+moveToPosX: 314.9287
+moveToPosY: -27.892235
+
+[16:40:39,877] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: 226.12776
+moveFromPosY: -29.864466
+moveToPosX: 235.8162
+moveToPosY: -120.19018
+
+[16:40:40,728] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: 236.79324
+moveFromPosY: -121.595665
+moveToPosX: -9.635475
+moveToPosY: -114.1046
+
+[16:40:41,315] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveToPosX: -27.89221
+moveToPosY: -124.24722
+
+[16:40:42,294] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -29.866365
+moveFromPosY: -123.731224
+moveToPosX: 191.18861
+moveToPosY: -136.41838
+
+[16:40:42,720] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: 25.598593
+moveFromPosY: -136.53058
+moveToPosX: 306.8146
+moveToPosY: -114.1046
+
+[16:40:43,371] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: 108.7973
+moveFromPosY: -113.063705
+moveToPosX: 415.34076
+moveToPosY: -33.977814
+
+[16:40:43,630] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: 142.93005
+moveFromPosY: -78.93096
+moveToPosX: 398.09827
+moveToPosY: 36.00634
+
+[16:40:44,594] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: 266.66104
+moveFromPosY: 36.266865
+moveToPosX: 322.02856
+moveToPosY: -223.645
+
+[16:40:45,132] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: 322.1259
+moveFromPosY: -31.998354
+moveToPosX: 327.09985
+moveToPosY: -194.23138
+
+[16:44:04,045] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[16:44:04,085] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[16:44:04,087] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[16:44:04,088] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[16:44:04,089] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[16:44:04,089] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[16:44:04,112] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[16:44:04,114] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[16:44:04,115] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[16:44:04,116] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[16:44:04,117] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[16:44:04,119] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[16:44:04,120] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[16:44:04,121] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[16:44:04,122] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[16:44:04,125] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[16:44:04,127] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[16:44:04,128] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[16:44:04,129] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[16:44:04,762] [INFO] ServerMain.main --> 游戏服务器启动成功
+[16:44:13,768] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[16:44:13,777] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:44:14,528] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:44:14,528] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[16:44:15,310] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:44:15,311] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:44:22,838] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveToPosX: -493.43896
+moveToPosY: 109.03328
+
+[16:44:41,623] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveToPosX: -483.29633
+moveToPosY: 135.40411
+
+[16:45:10,174] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -484.25754
+moveFromPosY: 130.13109
+moveToPosX: 179.01746
+moveToPosY: 10.649762
+
+[16:45:11,444] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -322.1279
+moveFromPosY: 8.534414
+moveToPosX: 292.61493
+moveToPosY: -41.077656
+
+[16:45:11,705] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -287.99506
+moveFromPosY: -25.598452
+moveToPosX: 328.11414
+moveToPosY: -108.01902
+
+[16:45:11,923] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -260.2623
+moveFromPosY: -53.331184
+moveToPosX: 374.77023
+moveToPosY: -157.71791
+
+[16:45:12,112] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -236.79619
+moveFromPosY: -76.7973
+moveToPosX: 420.41208
+moveToPosY: -190.17433
+
+[16:45:12,334] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -209.06383
+moveFromPosY: -104.52966
+moveToPosX: 442.72586
+moveToPosY: -204.37401
+
+[16:45:12,522] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -183.46419
+moveFromPosY: -130.12927
+moveToPosX: 445.76865
+moveToPosY: -205.38828
+
+[16:45:12,714] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -159.99808
+moveFromPosY: -153.59538
+moveToPosX: 461.99686
+moveToPosY: -209.44533
+
+[16:45:12,950] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -130.13158
+moveFromPosY: -183.46188
+moveToPosX: 459.96832
+moveToPosY: -153.66086
+
+[16:45:13,167] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -102.3987
+moveFromPosY: -155.72905
+moveToPosX: 459.96832
+moveToPosY: -100.919174
+
+[16:45:13,403] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -72.53232
+moveFromPosY: -125.86266
+moveToPosX: 455.9113
+moveToPosY: -92.80507
+
+[16:45:18,488] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: 456.52258
+moveFromPosY: -91.70971
+moveToPosX: 472.1395
+moveToPosY: 24.849445
+
+[16:45:24,042] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: 473.59216
+moveFromPosY: 25.621243
+moveToPosX: -493.43896
+moveToPosY: 101.93344
+
+[16:45:26,133] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:45:26,134] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:45:26,270] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:45:26,271] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:45:29,133] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:45:29,134] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:45:29,317] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:45:29,318] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:45:33,018] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveToPosX: 540.0951
+moveToPosY: -226.68779
+
+[16:45:34,554] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:45:34,555] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:45:37,969] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -494.92096
+moveFromPosY: 102.41997
+moveToPosX: 433.5975
+moveToPosY: -206.40254
+
+[16:45:39,782] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:45:39,783] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:45:39,931] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:45:39,932] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:45:43,232] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:45:43,232] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:45:43,415] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:45:43,416] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:45:44,503] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:45:44,504] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:45:44,683] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[16:45:44,684] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:45:48,335] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:45:48,335] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[16:45:48,954] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:45:48,954] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[16:45:49,143] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:45:49,143] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[16:45:49,982] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:45:49,982] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[16:45:50,144] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:45:50,145] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[16:45:50,720] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:45:50,720] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[18:59:56,553] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[18:59:56,589] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[18:59:56,590] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[18:59:56,591] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[18:59:56,592] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[18:59:56,592] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[18:59:56,617] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[18:59:56,618] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[18:59:56,619] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[18:59:56,620] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[18:59:56,622] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[18:59:56,623] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[18:59:56,624] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[18:59:56,625] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[18:59:56,626] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[18:59:56,628] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[18:59:56,630] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[18:59:56,631] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[18:59:56,632] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[18:59:57,255] [INFO] ServerMain.main --> 游戏服务器启动成功
+[19:00:18,407] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[19:00:18,413] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[19:00:24,268] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[19:00:24,269] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[19:00:29,181] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[19:00:29,366] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[19:00:29,572] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[19:00:29,774] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[19:00:31,160] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:31,366] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:31,561] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:31,737] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:31,902] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:32,063] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:32,222] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:32,666] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[19:00:32,858] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[19:00:33,055] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[19:00:33,246] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[19:00:33,688] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:33,870] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:34,049] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:34,208] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:34,383] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:34,569] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:34,749] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:00:34,933] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[19:02:10,999] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[19:02:11,034] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[19:02:11,035] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[19:02:11,036] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[19:02:11,037] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[19:02:11,037] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[19:02:11,058] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[19:02:11,059] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[19:02:11,060] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[19:02:11,062] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[19:02:11,063] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[19:02:11,064] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[19:02:11,065] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[19:02:11,066] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[19:02:11,067] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[19:02:11,069] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[19:02:11,071] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[19:02:11,072] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[19:02:11,073] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[19:02:11,679] [INFO] ServerMain.main --> 游戏服务器启动成功

@@ -1,0 +1,25 @@
+package org.cola.GuradCelia.async;
+
+/**
+ * 异步操作接口
+ */
+public interface IAsyncOperation {
+    /**
+     * 获取绑定 Id
+     *
+     * @return
+     */
+    default int getBindId(){
+        return 0;
+    }
+    /**
+     * 执行异步操作
+     */
+    void doAsync();
+
+    /**
+     * 执行完成逻辑
+     */
+    default void doFinish(){
+    }
+}

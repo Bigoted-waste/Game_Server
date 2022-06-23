@@ -1,0 +1,686 @@
+[10:39:28,152] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[10:39:28,198] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[10:39:28,199] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[10:39:28,201] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[10:39:28,203] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[10:39:28,204] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[10:39:28,233] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[10:39:28,236] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[10:39:28,236] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[10:39:28,236] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[10:39:28,236] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[10:39:28,241] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[10:39:28,241] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[10:39:28,241] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[10:39:28,241] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[10:39:28,248] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[10:39:28,252] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[10:39:28,254] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[10:39:28,255] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[10:39:28,856] [INFO] ServerMain.main --> 游戏服务器启动成功
+[10:39:43,243] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[10:39:43,250] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[10:39:58,831] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[10:39:58,832] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[10:40:00,238] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[10:40:00,238] [INFO] UserAttkCmdHandler.handle --> 当前线程 = nioEventLoopGroup-3-2
+[10:40:05,855] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[10:40:05,855] [INFO] UserAttkCmdHandler.handle --> 当前线程 = nioEventLoopGroup-3-1
+[14:25:23,021] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[14:25:23,060] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[14:25:23,061] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[14:25:23,062] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[14:25:23,063] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[14:25:23,063] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[14:25:23,087] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[14:25:23,087] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[14:25:23,087] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[14:25:23,092] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[14:25:23,092] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[14:25:23,092] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[14:25:23,097] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[14:25:23,097] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[14:25:23,099] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[14:25:23,102] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[14:25:23,104] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[14:25:23,105] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[14:25:23,106] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[14:25:23,691] [INFO] ServerMain.main --> 游戏服务器启动成功
+[14:25:35,367] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[14:25:35,369] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[14:25:40,274] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[14:25:40,274] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[14:25:42,812] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[14:25:42,812] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[14:25:51,055] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[14:25:51,056] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:11:34,310] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[16:11:34,349] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[16:11:34,350] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[16:11:34,350] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[16:11:34,351] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[16:11:34,352] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[16:11:34,354] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[16:11:34,377] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[16:11:34,379] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[16:11:34,380] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[16:11:34,381] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[16:11:34,382] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[16:11:34,384] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[16:11:34,385] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[16:11:34,386] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[16:11:34,387] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[16:11:34,389] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[16:11:34,390] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[16:11:34,391] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[16:11:34,392] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[16:11:34,394] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[16:11:34,395] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[16:11:34,396] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[16:11:34,397] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[16:11:34,593] [INFO] MySqlSessionFactory.init --> 
+### Error building SqlSession.
+### The error may exist in org/tinygame/herostory/login/db/IUserDao.xml
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource org/tinygame/herostory/login/db/IUserDao.xml
+org.apache.ibatis.exceptions.PersistenceException: 
+### Error building SqlSession.
+### The error may exist in org/tinygame/herostory/login/db/IUserDao.xml
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource org/tinygame/herostory/login/db/IUserDao.xml
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:80)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:64)
+	at org.cola.GuradCelia.MySqlSessionFactory.init(MySqlSessionFactory.java:37)
+	at org.cola.GuradCelia.ServerMain.main(ServerMain.java:40)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource org/tinygame/herostory/login/db/IUserDao.xml
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:122)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:99)
+	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build(SqlSessionFactoryBuilder.java:78)
+	... 3 more
+Caused by: java.io.IOException: Could not find resource org/tinygame/herostory/login/db/IUserDao.xml
+	at org.apache.ibatis.io.Resources.getResourceAsStream(Resources.java:114)
+	at org.apache.ibatis.io.Resources.getResourceAsStream(Resources.java:100)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.mapperElement(XMLConfigBuilder.java:377)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:120)
+	... 5 more
+[16:11:35,145] [INFO] ServerMain.main --> 游戏服务器启动成功
+[16:12:34,911] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[16:12:34,944] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[16:12:34,945] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[16:12:34,946] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[16:12:34,947] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[16:12:34,948] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[16:12:34,949] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[16:12:34,970] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[16:12:34,971] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[16:12:34,972] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[16:12:34,974] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[16:12:34,975] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[16:12:34,976] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[16:12:34,977] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[16:12:34,978] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[16:12:34,979] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[16:12:34,981] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[16:12:34,982] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[16:12:34,983] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[16:12:34,984] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[16:12:34,985] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[16:12:34,986] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[16:12:34,987] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[16:12:34,989] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[16:12:39,254] [INFO] MySqlSessionFactory.init --> 
+### Error getting a new connection.  Cause: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+### Cause: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+org.apache.ibatis.exceptions.PersistenceException: 
+### Error getting a new connection.  Cause: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+### Cause: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.getConnection(DefaultSqlSession.java:296)
+	at org.cola.GuradCelia.MySqlSessionFactory.init(MySqlSessionFactory.java:44)
+	at org.cola.GuradCelia.ServerMain.main(ServerMain.java:40)
+Caused by: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:899)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:824)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:208)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.doGetConnection(UnpooledDataSource.java:224)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.doGetConnection(UnpooledDataSource.java:219)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.getConnection(UnpooledDataSource.java:95)
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:432)
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.getConnection(PooledDataSource.java:89)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:139)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.getConnection(JdbcTransaction.java:61)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.getConnection(DefaultSqlSession.java:294)
+	... 2 more
+Caused by: com.mysql.cj.exceptions.CJException: Unknown database 'game_server'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:129)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:787)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:709)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:677)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:137)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:470)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:211)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1369)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:843)
+	... 16 more
+[16:12:39,755] [INFO] ServerMain.main --> 游戏服务器启动成功
+[16:13:39,250] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[16:13:39,288] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[16:13:39,289] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[16:13:39,289] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[16:13:39,290] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[16:13:39,291] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[16:13:39,293] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[16:13:39,318] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[16:13:39,319] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[16:13:39,320] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[16:13:39,321] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[16:13:39,322] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[16:13:39,323] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[16:13:39,325] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[16:13:39,326] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[16:13:39,327] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[16:13:39,329] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[16:13:39,330] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[16:13:39,331] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[16:13:39,332] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[16:13:39,334] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[16:13:39,335] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[16:13:39,336] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[16:13:39,337] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[16:13:39,627] [ERROR] MySqlSessionFactory.init --> MySql 数据库连接测试成功
+[16:13:40,160] [INFO] ServerMain.main --> 游戏服务器启动成功
+[16:14:16,318] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "cola"
+password: "123"
+
+[16:14:16,322] [ERROR] LoginService.userLogin --> Invalid bound statement (not found): org.cola.GuradCelia.login.db.IUserDao.getByUserName
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): org.cola.GuradCelia.login.db.IUserDao.getByUserName
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy9.getByUserName(Unknown Source)
+	at org.cola.GuradCelia.login.LoginService.userLogin(LoginService.java:55)
+	at org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:31)
+	at org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:16)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:65)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[16:15:28,314] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[16:15:28,347] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[16:15:28,348] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[16:15:28,349] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[16:15:28,349] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[16:15:28,350] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[16:15:28,352] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[16:15:28,376] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[16:15:28,377] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[16:15:28,378] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[16:15:28,379] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[16:15:28,381] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[16:15:28,382] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[16:15:28,383] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[16:15:28,384] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[16:15:28,385] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[16:15:28,387] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[16:15:28,388] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[16:15:28,389] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[16:15:28,390] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[16:15:28,392] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[16:15:28,393] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[16:15:28,394] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[16:15:28,395] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[16:15:28,656] [ERROR] MySqlSessionFactory.init --> MySql 数据库连接测试成功
+[16:15:29,201] [INFO] ServerMain.main --> 游戏服务器启动成功
+[16:15:50,411] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "a"
+password: "1"
+
+[16:15:52,493] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[16:15:52,493] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:15:53,294] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:15:53,773] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveToPosX: -66.64549
+moveToPosY: 38.155804
+
+[16:15:54,355] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:15:54,581] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:15:55,372] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:15:55,836] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:15:56,316] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:15:56,808] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:15:57,242] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -68.26611
+moveFromPosY: 38.400253
+moveToPosX: 72.750374
+moveToPosY: 11.701113
+
+[16:15:57,759] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -2.1331148
+moveFromPosY: 10.666621
+moveToPosX: 32.050854
+moveToPosY: -85.977745
+
+[16:15:58,092] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:15:58,742] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: 34.132355
+moveFromPosY: -31.998724
+moveToPosX: -66.64549
+moveToPosY: 15.771065
+
+[16:15:59,224] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:00,395] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -27.732222
+moveFromPosY: 17.066877
+moveToPosX: -403.43405
+moveToPosY: -4.5786963
+
+[16:16:04,861] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:22,888] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:23,430] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:23,862] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:24,053] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:24,215] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:24,389] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:24,567] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:24,736] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:24,876] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:25,032] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:27,322] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:27,963] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:28,135] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:28,311] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:28,490] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:28,656] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:16:33,407] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -405.3224
+moveFromPosY: -6.3984656
+moveToPosX: -445.15106
+moveToPosY: -138.88712
+
+[16:17:00,885] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "b"
+password: "2"
+
+[16:17:00,935] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[16:17:00,935] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:17:13,736] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveToPosX: -231.47856
+moveToPosY: -180.60413
+
+[16:17:13,957] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -29.867777
+moveFromPosY: -29.867777
+moveToPosX: -276.24805
+moveToPosY: -170.42926
+
+[16:17:14,163] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -55.464832
+moveFromPosY: -55.464832
+moveToPosX: -312.8776
+moveToPosY: -168.39427
+
+[16:17:14,396] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -85.33133
+moveFromPosY: -85.33133
+moveToPosX: -329.1574
+moveToPosY: -175.5167
+
+[16:17:14,573] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -108.79693
+moveFromPosY: -108.79693
+moveToPosX: -329.1574
+moveToPosY: -175.5167
+
+[16:17:14,765] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -132.26291
+moveFromPosY: -132.26291
+moveToPosX: -330.1749
+moveToPosY: -175.5167
+
+[16:17:15,611] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -241.0608
+moveFromPosY: -177.06192
+moveToPosX: -340.3498
+moveToPosY: -148.04451
+
+[16:17:15,838] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -270.92752
+moveFromPosY: -147.19519
+moveToPosX: -346.4547
+moveToPosY: -140.9221
+
+[16:17:16,076] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -300.7928
+moveFromPosY: -140.79518
+moveToPosX: -355.6121
+moveToPosY: -136.85214
+
+[16:17:20,173] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -445.85413
+moveFromPosY: -140.79453
+moveToPosX: -347.4722
+moveToPosY: -114.46741
+
+[16:17:20,862] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -358.3899
+moveFromPosY: -113.0623
+moveToPosX: -408.52148
+moveToPosY: -170.42926
+
+[16:17:21,062] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -383.98978
+moveFromPosY: -138.66217
+moveToPosX: -421.74884
+moveToPosY: -196.88394
+
+[16:17:21,255] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -409.58908
+moveFromPosY: -164.26154
+moveToPosX: -430.90622
+moveToPosY: -219.26868
+
+[16:17:21,428] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -430.92197
+moveFromPosY: -185.59439
+moveToPosX: -429.88873
+moveToPosY: -222.32115
+
+[16:17:21,720] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: -428.7881
+moveFromPosY: -200.52724
+moveToPosX: -397.3291
+moveToPosY: -221.30365
+
+[16:17:22,357] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:22,357] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:23,444] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:23,444] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:23,627] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:23,627] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:23,818] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:23,819] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:24,011] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:24,011] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:24,184] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:24,184] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:24,335] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:24,336] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:24,504] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:24,505] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:24,671] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:24,672] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:24,831] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:24,832] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:25,005] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:25,006] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:25,181] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:25,182] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:25,362] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:25,363] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:25,917] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:25,918] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:26,092] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:26,093] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:26,283] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:26,284] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:26,447] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:26,447] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:26,607] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:26,608] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:26,774] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:26,774] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:26,942] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:26,943] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:17:27,106] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[16:17:27,107] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:19:06,540] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[16:19:06,576] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[16:19:06,577] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[16:19:06,578] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[16:19:06,579] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[16:19:06,580] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[16:19:06,581] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[16:19:06,605] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[16:19:06,606] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[16:19:06,607] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[16:19:06,609] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[16:19:06,610] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[16:19:06,611] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[16:19:06,612] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[16:19:06,613] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[16:19:06,614] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[16:19:06,616] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[16:19:06,617] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[16:19:06,618] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[16:19:06,619] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[16:19:06,621] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[16:19:06,622] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[16:19:06,623] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[16:19:06,624] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[16:19:06,875] [ERROR] MySqlSessionFactory.init --> MySql 数据库连接测试成功
+[16:19:07,386] [INFO] ServerMain.main --> 游戏服务器启动成功
+[16:19:20,447] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "a"
+password: "1"
+
+[16:19:20,465] [INFO] LoginService.userLogin --> 当前线程 = MainMsgProcessor
+[16:19:20,516] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[16:19:20,516] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:19:36,953] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:19:40,152] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:19:40,567] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:19:40,815] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[22:05:15,368] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[22:05:15,399] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[22:05:15,399] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[22:05:15,415] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[22:05:15,415] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[22:05:15,415] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[22:05:15,415] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[22:05:15,446] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[22:05:15,446] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[22:05:15,446] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[22:05:15,446] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[22:05:15,446] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[22:05:15,446] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[22:05:15,446] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[22:05:15,446] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[22:05:15,462] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[22:05:15,462] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[22:05:15,462] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[22:05:15,462] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[22:05:15,462] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[22:05:15,462] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[22:05:15,462] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[22:05:15,462] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[22:05:15,462] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[22:05:15,790] [ERROR] MySqlSessionFactory.init --> MySql 数据库连接测试成功
+[22:05:16,321] [INFO] ServerMain.main --> 游戏服务器启动成功
+[22:05:39,249] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "a"
+password: "1"
+
+[22:05:39,266] [INFO] LoginService.lambda$userLogin$0 --> 当前线程 = AsyncOperationProcessor
+[22:05:39,333] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[22:05:39,333] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[22:05:44,226] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[22:05:46,453] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[22:05:47,282] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveToPosX: 33.06834
+moveToPosY: -104.29253
+
+[22:06:01,181] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "b"
+password: "2"
+
+[22:06:01,182] [INFO] LoginService.lambda$userLogin$0 --> 当前线程 = AsyncOperationProcessor
+[22:06:01,217] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[22:06:01,217] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[22:06:02,890] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveFromPosX: 34.13299
+moveFromPosY: -104.531075
+moveToPosX: 33.06834
+moveToPosY: -113.44992
+
+[22:06:04,520] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[22:06:04,520] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:06:05,234] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[22:06:05,234] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:06:05,927] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[22:06:05,927] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:06:07,251] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[22:06:07,251] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:06:07,668] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[22:06:07,668] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:06:07,866] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[22:06:07,866] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:06:08,043] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[22:06:08,044] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:06:09,288] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[22:06:09,288] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:06:09,467] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[22:06:09,467] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:06:09,654] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[22:06:09,654] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:06:09,845] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[22:06:09,845] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:06:10,042] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[22:06:10,042] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:06:10,211] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[22:06:10,211] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:06:10,397] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[22:06:10,397] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:21:12,155] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[22:21:12,186] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[22:21:12,186] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[22:21:12,186] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[22:21:12,186] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[22:21:12,186] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[22:21:12,186] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[22:21:12,218] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[22:21:12,218] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[22:21:12,218] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[22:21:12,218] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[22:21:12,218] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[22:21:12,218] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[22:21:12,218] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[22:21:12,218] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[22:21:12,218] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[22:21:12,233] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[22:21:12,233] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[22:21:12,233] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[22:21:12,233] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[22:21:12,233] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[22:21:12,233] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[22:21:12,233] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[22:21:12,233] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[22:21:12,499] [ERROR] MySqlSessionFactory.init --> MySql 数据库连接测试成功
+[22:21:12,999] [INFO] ServerMain.main --> 游戏服务器启动成功
+[22:32:11,322] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[22:32:11,353] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[22:32:11,353] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[22:32:11,353] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[22:32:11,368] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[22:32:11,368] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[22:32:11,368] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[22:32:11,384] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[22:32:11,384] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[22:32:11,400] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[22:32:11,415] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[22:32:11,650] [ERROR] MySqlSessionFactory.init --> MySql 数据库连接测试成功
+[22:32:12,165] [INFO] ServerMain.main --> 游戏服务器启动成功
+[22:32:25,925] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "a"
+password: "1"
+
+[22:32:25,925] [INFO] UserLoginCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[22:32:25,941] [INFO] LoginService$AsyncGetUserEntity.doAsync --> 当前线程 = AsyncOperationProcessor
+[22:32:25,941] [INFO] UserLoginCmdHandler.lambda$handle$0 --> 当前线程 = MainMsgProcessor
+[22:32:26,000] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[22:32:26,000] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 

@@ -1,0 +1,739 @@
+[16:12:45,358] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[16:12:45,394] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[16:12:45,395] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[16:12:45,396] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[16:12:45,396] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankCmd <====> org.cola.GuradCelia.cmdhandler.GetRankCmdHandler 
+[16:12:45,397] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[16:12:45,399] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[16:12:45,400] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[16:12:45,421] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankResult <===> 18 
+[16:12:45,422] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankCmd <===> 17 
+[16:12:45,423] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[16:12:45,424] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[16:12:45,426] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[16:12:45,427] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[16:12:45,428] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[16:12:45,429] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[16:12:45,431] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[16:12:45,432] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[16:12:45,433] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[16:12:45,434] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[16:12:45,435] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[16:12:45,436] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[16:12:45,437] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[16:12:45,439] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[16:12:45,440] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[16:12:45,441] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[16:12:45,442] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[16:12:45,736] [ERROR] MySqlSessionFactory.init --> MySql 数据库连接测试成功
+[16:12:45,773] [INFO] RedisUtil.init --> Redis 连接成功！
+[16:12:46,487] [INFO] MqProducer.init --> 消息队列 ( 生产者 ) 连接成功！
+[16:12:46,831] [INFO] ServerMain.main --> 游戏服务器启动成功
+[16:14:07,144] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "a"
+password: "1"
+
+[16:14:07,145] [INFO] UserLoginCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:07,174] [INFO] LoginService$AsyncGetUserEntity.doAsync --> 当前线程 = AsyncOperationProcessor[1]
+[16:14:07,308] [INFO] UserLoginCmdHandler.lambda$handle$0 --> 当前线程 = MainMsgProcessor
+[16:14:08,650] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[16:14:08,650] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:14:29,896] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "b"
+password: "2"
+
+[16:14:29,897] [INFO] UserLoginCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:29,898] [INFO] LoginService$AsyncGetUserEntity.doAsync --> 当前线程 = AsyncOperationProcessor[2]
+[16:14:29,928] [INFO] UserLoginCmdHandler.lambda$handle$0 --> 当前线程 = MainMsgProcessor
+[16:14:29,965] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[16:14:29,965] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:14:35,146] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveToPosX: -48.28404
+moveToPosY: -29.349112
+
+[16:14:38,767] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:14:38,934] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:14:39,099] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 4294967295
+
+[16:14:40,110] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserMoveToCmd , msgBody = moveToPosX: -0.9467611
+moveToPosY: -67.21893
+
+[16:14:41,511] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:14:41,511] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:41,670] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:14:41,670] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:41,830] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:14:41,831] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:41,987] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:14:41,987] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:42,145] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:14:42,145] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:42,293] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:14:42,293] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:42,454] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:14:42,454] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:42,614] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:14:42,614] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:42,789] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:14:42,789] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:42,934] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:14:42,935] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:42,956] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[16:14:43,089] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:14:43,089] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:43,090] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[16:14:43,229] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:14:43,230] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:14:43,230] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[16:20:23,854] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[16:20:23,919] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[16:20:23,920] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[16:20:23,921] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[16:20:23,922] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[16:20:23,923] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[16:20:23,925] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankCmd <====> org.cola.GuradCelia.cmdhandler.GetRankCmdHandler 
+[16:20:23,926] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[16:20:23,954] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankResult <===> 18 
+[16:20:23,956] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankCmd <===> 17 
+[16:20:23,957] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[16:20:23,959] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[16:20:23,961] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[16:20:23,962] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[16:20:23,964] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[16:20:23,966] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[16:20:23,968] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[16:20:23,970] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[16:20:23,972] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[16:20:23,973] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[16:20:23,975] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[16:20:23,977] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[16:20:23,978] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[16:20:23,981] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[16:20:23,982] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[16:20:23,983] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[16:20:23,985] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[16:20:24,287] [ERROR] MySqlSessionFactory.init --> MySql 数据库连接测试成功
+[16:20:24,326] [INFO] RedisUtil.init --> Redis 连接成功！
+[16:20:25,042] [INFO] MqProducer.init --> 消息队列 ( 生产者 ) 连接成功！
+[16:20:25,387] [INFO] ServerMain.main --> 游戏服务器启动成功
+[16:20:34,615] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "a"
+password: "1"
+
+[16:20:34,616] [INFO] UserLoginCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:20:34,639] [INFO] LoginService$AsyncGetUserEntity.doAsync --> 当前线程 = AsyncOperationProcessor[1]
+[16:20:34,769] [INFO] UserLoginCmdHandler.lambda$handle$0 --> 当前线程 = MainMsgProcessor
+[16:20:34,809] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[16:20:34,810] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:20:38,129] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "b"
+password: "2"
+
+[16:20:38,130] [INFO] UserLoginCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:20:38,131] [INFO] LoginService$AsyncGetUserEntity.doAsync --> 当前线程 = AsyncOperationProcessor[2]
+[16:20:38,158] [INFO] UserLoginCmdHandler.lambda$handle$0 --> 当前线程 = MainMsgProcessor
+[16:20:38,192] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[16:20:38,192] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:20:40,603] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:20:40,603] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:20:40,772] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:20:40,772] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:20:40,930] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:20:40,931] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:20:41,105] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:20:41,106] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:20:41,274] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:20:41,274] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:20:41,436] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:20:41,436] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:20:41,598] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:20:41,598] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:20:41,762] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:20:41,763] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:20:41,924] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:20:41,925] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:20:42,096] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:20:42,097] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:20:46,332] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:20:46,332] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:20:46,380] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[16:22:42,128] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:22:42,129] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[16:22:42,130] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:22:42,131] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[16:34:49,681] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[16:34:49,719] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[16:34:49,720] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[16:34:49,720] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[16:34:49,721] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankCmd <====> org.cola.GuradCelia.cmdhandler.GetRankCmdHandler 
+[16:34:49,722] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[16:34:49,723] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[16:34:49,724] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[16:34:49,745] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankResult <===> 18 
+[16:34:49,746] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankCmd <===> 17 
+[16:34:49,747] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[16:34:49,748] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[16:34:49,749] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[16:34:49,750] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[16:34:49,751] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[16:34:49,752] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[16:34:49,754] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[16:34:49,755] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[16:34:49,756] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[16:34:49,757] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[16:34:49,758] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[16:34:49,759] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[16:34:49,760] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[16:34:49,762] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[16:34:49,763] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[16:34:49,764] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[16:34:49,765] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[16:34:50,028] [ERROR] MySqlSessionFactory.init --> MySql 数据库连接测试成功
+[16:34:50,068] [INFO] RedisUtil.init --> Redis 连接成功！
+[16:34:50,786] [INFO] MqProducer.init --> 消息队列 ( 生产者 ) 连接成功！
+[16:34:51,130] [INFO] ServerMain.main --> 游戏服务器启动成功
+[16:35:19,798] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "b"
+password: "2"
+
+[16:35:19,799] [INFO] UserLoginCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:19,818] [INFO] LoginService$AsyncGetUserEntity.doAsync --> 当前线程 = AsyncOperationProcessor[2]
+[16:35:19,932] [INFO] UserLoginCmdHandler.lambda$handle$0 --> 当前线程 = MainMsgProcessor
+[16:35:19,974] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[16:35:19,974] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:35:23,126] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "a"
+password: "1"
+
+[16:35:23,127] [INFO] UserLoginCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:23,128] [INFO] LoginService$AsyncGetUserEntity.doAsync --> 当前线程 = AsyncOperationProcessor[1]
+[16:35:23,151] [INFO] UserLoginCmdHandler.lambda$handle$0 --> 当前线程 = MainMsgProcessor
+[16:35:23,191] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[16:35:23,191] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[16:35:24,257] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:35:24,258] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:24,389] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:35:24,389] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:24,546] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:35:24,546] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:24,694] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:35:24,694] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:24,850] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:35:24,850] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:25,012] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:35:25,013] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:25,158] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:35:25,158] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:25,320] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:35:25,321] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:25,486] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:35:25,486] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:25,655] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:35:25,655] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:25,675] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[16:35:25,828] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:35:25,828] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:25,829] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[16:35:25,987] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[16:35:25,987] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[16:35:25,987] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[17:15:06,863] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[17:15:06,905] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[17:15:06,907] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[17:15:06,908] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[17:15:06,909] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankCmd <====> org.cola.GuradCelia.cmdhandler.GetRankCmdHandler 
+[17:15:06,910] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[17:15:06,912] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[17:15:06,913] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[17:15:06,938] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankResult <===> 18 
+[17:15:06,939] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankCmd <===> 17 
+[17:15:06,940] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[17:15:06,941] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[17:15:06,943] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[17:15:06,944] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[17:15:06,945] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[17:15:06,947] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[17:15:06,949] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[17:15:06,950] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[17:15:06,951] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[17:15:06,952] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[17:15:06,954] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[17:15:06,955] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[17:15:06,957] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[17:15:06,959] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[17:15:06,960] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[17:15:06,961] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[17:15:06,962] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[17:15:07,257] [ERROR] MySqlSessionFactory.init --> MySql 数据库连接测试成功
+[17:15:07,297] [INFO] RedisUtil.init --> Redis 连接成功！
+[17:15:08,016] [INFO] MqProducer.init --> 消息队列 ( 生产者 ) 连接成功！
+[17:15:08,366] [INFO] ServerMain.main --> 游戏服务器启动成功
+[17:15:26,935] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "a"
+password: "1"
+
+[17:15:26,935] [INFO] UserLoginCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:15:26,954] [INFO] LoginService$AsyncGetUserEntity.doAsync --> 当前线程 = AsyncOperationProcessor[1]
+[17:15:27,070] [INFO] UserLoginCmdHandler.lambda$handle$0 --> 当前线程 = MainMsgProcessor
+[17:15:27,111] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[17:15:27,111] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[17:15:33,094] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "b"
+password: "2"
+
+[17:15:33,094] [INFO] UserLoginCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:15:33,096] [INFO] LoginService$AsyncGetUserEntity.doAsync --> 当前线程 = AsyncOperationProcessor[2]
+[17:15:33,120] [INFO] UserLoginCmdHandler.lambda$handle$0 --> 当前线程 = MainMsgProcessor
+[17:15:33,157] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[17:15:33,158] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[17:15:34,981] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:15:34,981] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:15:35,131] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:15:35,131] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:15:35,289] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:15:35,289] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:15:35,438] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:15:35,438] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:15:35,599] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:15:35,599] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:15:35,753] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:15:35,753] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:15:35,903] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:15:35,904] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:15:36,056] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:15:36,056] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:15:36,213] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:15:36,213] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:15:36,370] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:15:36,371] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:15:36,390] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[17:15:36,534] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:15:36,534] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:15:36,534] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[17:20:11,191] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[17:20:11,229] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[17:20:11,230] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[17:20:11,231] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[17:20:11,232] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankCmd <====> org.cola.GuradCelia.cmdhandler.GetRankCmdHandler 
+[17:20:11,232] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[17:20:11,234] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[17:20:11,235] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[17:20:11,256] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankResult <===> 18 
+[17:20:11,258] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankCmd <===> 17 
+[17:20:11,259] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[17:20:11,260] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[17:20:11,261] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[17:20:11,262] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[17:20:11,264] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[17:20:11,265] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[17:20:11,267] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[17:20:11,268] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[17:20:11,269] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[17:20:11,270] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[17:20:11,271] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[17:20:11,272] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[17:20:11,273] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[17:20:11,275] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[17:20:11,276] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[17:20:11,277] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[17:20:11,278] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[17:20:11,602] [ERROR] MySqlSessionFactory.init --> MySql 数据库连接测试成功
+[17:20:11,645] [INFO] RedisUtil.init --> Redis 连接成功！
+[17:20:12,369] [INFO] MqProducer.init --> 消息队列 ( 生产者 ) 连接成功！
+[17:20:12,701] [INFO] ServerMain.main --> 游戏服务器启动成功
+[17:20:48,049] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "a"
+password: "1"
+
+[17:20:48,049] [INFO] UserLoginCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:20:48,069] [INFO] LoginService$AsyncGetUserEntity.doAsync --> 当前线程 = AsyncOperationProcessor[1]
+[17:20:48,193] [INFO] UserLoginCmdHandler.lambda$handle$0 --> 当前线程 = MainMsgProcessor
+[17:20:48,236] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[17:20:48,236] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[17:20:54,154] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "b"
+password: "2"
+
+[17:20:54,154] [INFO] UserLoginCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:20:54,155] [INFO] LoginService$AsyncGetUserEntity.doAsync --> 当前线程 = AsyncOperationProcessor[2]
+[17:20:54,185] [INFO] UserLoginCmdHandler.lambda$handle$0 --> 当前线程 = MainMsgProcessor
+[17:20:54,220] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[17:20:54,221] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[17:20:55,085] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[17:20:55,085] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:20:55,232] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[17:20:55,232] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:20:55,386] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[17:20:55,386] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:20:55,548] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[17:20:55,548] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:20:55,705] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[17:20:55,706] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:20:55,862] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[17:20:55,863] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:20:56,024] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[17:20:56,025] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:20:56,187] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[17:20:56,188] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:20:56,355] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[17:20:56,355] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:20:56,511] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 1
+
+[17:20:56,511] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:20:56,530] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[17:23:26,466] [INFO] CmdHandlerFactory.init --> ========= 完成命令与处理器的关联 =============
+[17:23:26,503] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <====> org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler 
+[17:23:26,504] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <====> org.cola.GuradCelia.cmdhandler.UserLoginCmdHandler 
+[17:23:26,505] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <====> org.cola.GuradCelia.cmdhandler.WhoElseIsHereHandler 
+[17:23:26,506] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankCmd <====> org.cola.GuradCelia.cmdhandler.GetRankCmdHandler 
+[17:23:26,506] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <====> org.cola.GuradCelia.cmdhandler.UserEntryCmdHandler 
+[17:23:26,508] [INFO] CmdHandlerFactory.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <====> org.cola.GuradCelia.cmdhandler.UserMoveToCmdHandler 
+[17:23:26,509] [INFO] GameMsgRecognizer.init --> ========= 完成消息类与消息编号映射 =============
+[17:23:26,529] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankResult <===> 18 
+[17:23:26,530] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$GetRankCmd <===> 17 
+[17:23:26,531] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroResult <===> 16 
+[17:23:26,532] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$SelectHeroCmd <===> 15 
+[17:23:26,533] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginResult <===> 14 
+[17:23:26,534] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserLoginCmd <===> 13 
+[17:23:26,535] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserDieResult <===> 12 
+[17:23:26,536] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserSubtractHpResult <===> 11 
+[17:23:26,538] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkResult <===> 10 
+[17:23:26,539] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserAttkCmd <===> 9 
+[17:23:26,540] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopResult <===> 8 
+[17:23:26,541] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserStopCmd <===> 7 
+[17:23:26,542] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserQuitResult <===> 6 
+[17:23:26,543] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToResult <===> 5 
+[17:23:26,544] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserMoveToCmd <===> 4 
+[17:23:26,546] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereResult <===> 3 
+[17:23:26,547] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$WhoElseIsHereCmd <===> 2 
+[17:23:26,548] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryResult <===> 1 
+[17:23:26,549] [INFO] GameMsgRecognizer.init -->  org.cola.GuradCelia.msg.GameMsgProtocol$UserEntryCmd <===> 0 
+[17:23:26,893] [ERROR] MySqlSessionFactory.init --> MySql 数据库连接测试成功
+[17:23:26,939] [INFO] RedisUtil.init --> Redis 连接成功！
+[17:23:27,647] [INFO] MqProducer.init --> 消息队列 ( 生产者 ) 连接成功！
+[17:23:27,992] [INFO] ServerMain.main --> 游戏服务器启动成功
+[17:23:37,857] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "a"
+password: "1"
+
+[17:23:37,858] [INFO] UserLoginCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:23:37,876] [INFO] LoginService$AsyncGetUserEntity.doAsync --> 当前线程 = AsyncOperationProcessor[1]
+[17:23:37,998] [INFO] UserLoginCmdHandler.lambda$handle$0 --> 当前线程 = MainMsgProcessor
+[17:23:38,046] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[17:23:38,046] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[17:23:41,299] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserLoginCmd , msgBody = userName: "b"
+password: "2"
+
+[17:23:41,300] [INFO] UserLoginCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:23:41,301] [INFO] LoginService$AsyncGetUserEntity.doAsync --> 当前线程 = AsyncOperationProcessor[2]
+[17:23:41,333] [INFO] UserLoginCmdHandler.lambda$handle$0 --> 当前线程 = MainMsgProcessor
+[17:23:41,365] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserEntryCmd , msgBody = 
+[17:23:41,365] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = WhoElseIsHereCmd , msgBody = 
+[17:23:43,873] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:23:43,873] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:23:44,028] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:23:44,028] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:23:44,181] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:23:44,181] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:23:44,343] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:23:44,344] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:23:44,511] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:23:44,511] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:23:44,661] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:23:44,661] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:23:44,827] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:23:44,827] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:23:44,987] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:23:44,987] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:23:45,153] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:23:45,153] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:23:45,314] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:23:45,314] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:23:45,334] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[17:23:45,470] [INFO] MainMsgProcessor.process --> 收到客户端消息，msgClazz = UserAttkCmd , msgBody = targetUserId: 2
+
+[17:23:45,470] [INFO] UserAttkCmdHandler.handle --> 当前线程 = MainMsgProcessor
+[17:23:45,471] [ERROR] MqProducer.sendMsg --> No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+org.apache.rocketmq.client.exception.MQClientException: No route info of this topic, herostory_victor
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:656)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1225)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:283)
+	at org.cola.GuradCelia.mq.MqProducer.sendMsg(MqProducer.java:67)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:65)
+	at org.cola.GuradCelia.cmdhandler.UserAttkCmdHandler.handle(UserAttkCmdHandler.java:17)
+	at org.cola.GuradCelia.MainMsgProcessor.lambda$process$1(MainMsgProcessor.java:67)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
